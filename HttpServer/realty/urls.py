@@ -18,5 +18,6 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='realty-home'),
-    path('contacts/', views.contacts, name='realty-contacts'),
+    path('realty/contacts/', views.contacts, name='realty-contacts'),
+    path('realty/', views.home, name='realty-home'),
 ]
